@@ -295,6 +295,8 @@ void mon_info(void)
   Serial.print(" days or ");
   Serial.print(RTC.time2000, DEC);
   Serial.println(" seconds since 2000-01-01 00:00:00");
+  Serial.print("LED State: ");
+  Serial.println(A_LED_state);
 }
 
 void mon_dst(void)
